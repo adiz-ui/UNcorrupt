@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Embezzlement">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/speak1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_vol" />
+
+            <TextView
+                android:id="@+id/content1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='Embezzlement is the act of withholding assets for the purpose of conversion of such assets, by one or more persons to whom the assets were entrusted, either to be held or to be used for specific purposes.[1] Embezzlement is a type of financial fraud. For example, a lawyer might embezzle funds from the trust accounts of their clients; a financial advisor might embezzle the funds of investors; and a husband or a wife might embezzle funds from a bank account jointly held with the spouse.  The term "embezzlement" is often used in informal speech to mean theft of money, usually from an organization or company such as an employer.  Embezzlement is usually a premeditated crime, performed methodically, with precautions that conceal the criminal conversion of the property, which occurs without the knowledge or consent of the affected person. Often it involves the trusted individual embezzling only a small proportion of the total of the funds or resources they receive or control, in an attempt to minimize the risk of the detection of the misallocation of the funds or resources. When successful, embezzlements may continue for many years without detection. The victims often realize that the funds, savings, assets, or other resources, are missing and that they have been duped by the embezzler, only when a relatively large proportion of the funds are needed at one time; or the funds are called upon for another use; or when a major institutional reorganization (the closing or moving of a plant or business office, or a merger/acquisition of a firm) requires the complete and independent accounting of all real and liquid assets, prior to or concurrent with the reorganization. '
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

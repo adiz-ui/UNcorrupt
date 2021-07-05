@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".Bribery">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/speakbtn"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                app:srcCompat="@drawable/ic_vol" />
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bribery - means giving or receiving an unearned reward to influence someone's behaviour. One common form of bribery is a &quot;kickback&quot; - an unearned reward following favourable treatment. Both are corrupt. Corruption - is any unlawful or improper behaviour that seeks to gain an advantage through illegitimate means.For example, it is legal for an employee of a Public Utilities Commission involved in electric rate regulation to accept a rebate on electric service that reduces their cost for electricity, when the rebate is available to other residential electric customers. However, giving a discount specifically to that employee to influence them to look favorably on the electric utility's rate increase applications would be considered bribery. "
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

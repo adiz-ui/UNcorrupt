@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/custom_text"
+                android:fontFamily="@font/abril_fatface"
+                android:text="Lets acknowledge and make this world a better place"
+                android:textColor="#605F61"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="bribery"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bribery is offering of money for getting any leagle or illeagle work done (click on picture to learn in details) "
+                android:textColor="#5C5759"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/imgbtn1"
+                android:layout_width="419dp"
+                android:layout_height="267dp"
+                android:layout_marginEnd="1dp"
+                android:onClick="bribery"
+                app:srcCompat="@drawable/ic_bribery" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Embezzlement "
+                android:textColor="#FFFFFF"
+                android:textSize="48sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Embezzlement is the act of withholding assets for the purpose of conversion of such assets, by one or more persons to whom the assets were entrusted, either to be held or to be used for specific purposes. Embezzlement is a type of financial fraud. (click on image to learn in details) "
+                android:textColor="#595656"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+            <ImageButton
+                android:id="@+id/imgbtn2"
+                android:layout_width="407dp"
+                android:layout_height="306dp"
+                android:onClick="Embezzlement"
+                app:srcCompat="@drawable/ic_embazzlement" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Networking Fraud"
+                android:textColor="#FFFFFF"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This form of networking has been described as an attempt to corrupt formal hiring processes(Click On the below Picture For details) "
+                android:textSize="20sp" />
+
+            <ImageButton
+                android:id="@+id/imgbtn3"
+                android:layout_width="match_parent"
+                android:layout_height="369dp"
+                android:onClick="Networking"
+                app:srcCompat="@drawable/ic_networking" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
